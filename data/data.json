@@ -1,0 +1,215 @@
+{
+  "previews": [
+    {
+      "id": 1,
+      "title": "Random quote generator",
+      "thumbnail": "/static/images/thumbnails/generator.png"
+    },
+    {
+      "id": 2,
+      "title": "Pagination and filtering",
+      "thumbnail": "/static/images/thumbnails/pagination.png"
+    },
+    {
+      "id": 3,
+      "title": "Interactive Form",
+      "thumbnail": "/static/images/thumbnails/form.png"
+    },
+    {
+      "id": 4,
+      "title": "Phrase hunter",
+      "thumbnail": "/static/images/thumbnails/phrase.png"
+    },
+    {
+      "id": 5,
+      "title": "API requests",
+      "thumbnail": "/static/images/thumbnails/api-requests.png"
+    },
+    {
+      "id": 6,
+      "title": "DARSSY Simulator",
+      "thumbnail": "/static/images/thumbnails/darssy.png"
+    },
+    {
+      "id": 7,
+      "title": "Kdiet Nutrition",
+      "thumbnail": "/static/images/thumbnails/kdiet.png"
+    },
+    {
+      "id": 8,
+      "title": "Calculator",
+      "thumbnail": "/static/images/thumbnails/calculator.png"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Random quote generator",
+      "description": "A simple Javascript project, using basic JavaScript syntax, variables, loops and conditionals that displays randomly generated quotes.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "demoLink": "https://bilsot.github.io/Random-Quote-Generator/",
+      "gitRepositoryLink": "https://github.com/BilSot/Random-Quote-Generator",
+      "images": [
+        "../static/images/screenshots/generator/generator1.png",
+        "../static/images/screenshots/generator/generator2.png",
+        "../static/images/screenshots/generator/generator3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pagination and filtering",
+      "description": "Demonstration of content pagination and incremental filtering",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "demoLink": "https://bilsot.github.io/List-pagination-and-filtering/",
+      "gitRepositoryLink": "https://github.com/BilSot/List-pagination-and-filtering",
+      "images": [
+        "../static/images/screenshots/pagination/pagination1.png",
+        "../static/images/screenshots/pagination/pagination2.png",
+        "../static/images/screenshots/pagination/pagination3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Interactive Form",
+      "description": "Interactive registration form. Demonstrates user input validation and error message display when the user enters invalid information into the form fields.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "demoLink": "https://bilsot.github.io/Interactive-Form/",
+      "gitRepositoryLink": "https://github.com/BilSot/Interactive-Form",
+      "images": [
+        "../static/images/screenshots/form/form1.png",
+        "../static/images/screenshots/form/form2.png",
+        "../static/images/screenshots/form/form3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Phrase hunter",
+      "description": "Game similar to the Hangman word game where the user needs to guess the letters of the hidden word.",
+      "technologies": [
+		  "HTML",
+		  "CSS",
+		  "Javascript",
+		  "jQuery"
+	  ],
+      "demoLink": "https://bilsot.github.io/Phrase-Hunter/",
+      "gitRepositoryLink": "https://github.com/BilSot/Phrase-Hunter",
+      "images": [
+        "../static/images/screenshots/phrase/phrase1.png",
+        "../static/images/screenshots/phrase/phrase2.png",
+        "../static/images/screenshots/phrase/phrase3.png",
+        "../static/images/screenshots/phrase/phrase4.png"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "API requests",
+      "description": "Requesting data, from a public API that provides random users. The content of each user is displayed on a `card`. When clicked, a modal dialog appears with more information for that user.",
+      "technologies": [
+		  "HTML",
+		  "CSS",
+		  "Javascript",
+		  "jQuery"
+	  ],
+      "demoLink": "https://bilsot.github.io/Public-API-Requests/",
+      "gitRepositoryLink": "https://github.com/BilSot/Public-API-Requests",
+      "images": [
+        "../static/images/screenshots/api-requests/api-requests1.png",
+        "../static/images/screenshots/api-requests/api-requests2.png",
+        "../static/images/screenshots/api-requests/api-requests3.png",
+        "../static/images/screenshots/api-requests/api-requests4.png"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "DARSSY Air Traffic Control Radar Simulator",
+      "description": "A single webpage representing the air traffic control radar simulator DARSSY. It displays information about what the simulator offers and current installations.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "jQuery"
+      ],
+      "demoLink": "http://darssy.com/",
+      "gitRepositoryLink": "",
+      "images": [
+        "../static/images/screenshots/darssy/darssy1.png",
+        "../static/images/screenshots/darssy/darssy2.png",
+        "../static/images/screenshots/darssy/darssy3.png",
+        "../static/images/screenshots/darssy/darssy4.png"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Kdiet Nutrition (Greek)",
+      "description": "Web site for a nutritionist's office Kdiet, located in Thessaloniki, Greece. It provides information about its services and different nutrition packages.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "jQuery"
+      ],
+      "demoLink": "http://kdiet.gr/",
+      "gitRepositoryLink": "",
+      "images": [
+        "../static/images/screenshots/kdiet/kdiet1.png",
+        "../static/images/screenshots/kdiet/kdiet2.png",
+        "../static/images/screenshots/kdiet/kdiet3.png",
+        "../static/images/screenshots/kdiet/kdiet4.png"
+      ]
+    },
+
+    {
+      "id": 8,
+      "title": "Calculator",
+      "description": "One of my very first projects. The styling is a replica (as close as possible) of the calculator that I actually use at home. It covers the basic arithmetic operations: addition, subtraction, multiplication and division. It also includes place in Memory, reciprocal, square power and root calculation.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "demoLink": "http://calculator-com.stackstaging.com/",
+      "gitRepositoryLink": "https://github.com/BilSot/Calculator",
+      "images": [
+        "../static/images/screenshots/calculator/calculator1.png",
+        "../static/images/screenshots/calculator/calculator2.png",
+        "../static/images/screenshots/calculator/calculator3.png"
+      ]
+    }
+  ],
+  "profile": {
+    "name": "Biljana",
+    "title": "Front-end developer / Full stack Javascript developer",
+    "bio": "I hold a bachelor diploma of a Software Engineer. I graduated in the beautiful Thessaloniki, in Greece and my passion is web development.",
+    "photo": "/static/images/profile.png",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "jQuery",
+      "Angular JS",
+      "Node JS",
+      "Express JS"
+    ],
+    "contact": [
+      "mail@mail.com"
+    ],
+    "profileLinks": {
+      "LinkedIn": "https://github.com/BilSot",
+      "GitHub": "https://www.linkedin.com/in/bilsot/"
+    }
+  }
+}

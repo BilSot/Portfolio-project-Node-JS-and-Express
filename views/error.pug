@@ -1,6 +1,22 @@
 extends layout
 
 block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back
+    if error.status == 404
+      section.error-container
+        span.four
+            span.screen-reader-text 4
+        span.zero
+            span.screen-reader-text 0
+        span.four
+            span.screen-reader-text 4
+
+      h1 #{error.message}
+    else if error.status == 500
+      #notfound
+        .notfound
+            .notfound-500
+              h1 500 Server Error
+                h2 #{error.message}
+

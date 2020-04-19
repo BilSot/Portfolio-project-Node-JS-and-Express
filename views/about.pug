@@ -1,6 +1,6 @@
 extends layout.pug
 
-block content 
+block content
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
@@ -8,40 +8,33 @@ block content
       .cell.small-6.medium-9.large-9
 
         //- Add your name.
-        h1 Name
+        h1 #{profile.name}
 
         //- Feel free personalize the title below
-        p.lead.text-light
-          | Full Stack JavaScript Developer.
+        p.lead.text-light #{profile.title}
 
         //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
-          p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+          p After graduation, for quite some time I couldn't manage to find a job in a company for a suitable, to my education, role
+            | so I started following online courses to improve and gain new skills in web development. After a while, I created a few webpages for friends
+            | (darssy.com, kdiet.gr and villasofiavrasna.gr) and was very proud to have my work on the web. Several years later,
+            | I started working in a company in Belgium as a consultant for a famous platform but I realized recently that the job is not leading me
+            | to a place I've envisioned for myself. That's why I resigned and decided to drive my career to a full time Web developer.
+            | Starting the Techdegree program on Treehouse gave me the opportunity to gain the right skills and knowledge to be able to reach my goal.
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
+          ul
+            each skill in profile.skills
+              li= skill
 
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
-        ul
-          li Express
-          li Other cool stuff
-          li Listing my skills
-          li Etc.
-          li Etc. 
-          li Etc.
         h6 Contact Info
+          ul
+            each contact in profile.contact
+              li= contact
 
-        //- Add your own contact info
-        ul
-          li 555-555-1234
-          li email@email.com
+        each profileLink, linkTitle in profile.profileLinks
+            a.button.expanded(href= profileLink)= linkTitle
 
-        //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='') LinkedIn
-        a.button.expanded(href='') GitHub
-        a.button.expanded(href='') Twitter
+
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
-  

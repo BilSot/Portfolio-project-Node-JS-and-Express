@@ -1,0 +1,43 @@
+#notfound {
+    position: relative;
+    height: 200px;
+}
+
+#notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.notfound {
+    max-width: 710px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 15px;
+    line-height: 1.4;
+}
+
+.notfound .notfound-500 h1 {
+    margin: 0px;
+    color: #ff508e;
+}
+
+.notfound h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #222;
+    margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .notfound .notfound-500 {
+        height: 122px;
+        line-height: 122px;
+    }
+    .notfound .notfound-500 h1 {
+        font-size: 122px;
+    }
+}

@@ -1,4 +1,5 @@
-## This project is part of the Treehouse Full Stack Javascript Techdegree program. 
+## Static Node.js and Express Site
+#### This project is part of the Treehouse Full Stack Javascript Techdegree program. 
 It's a website that showcases the projects I've build so far, using HTML, CSS, vanilla Javascript and jQuery. This project however, uses server side Javascript, namely Node and Express JS.
 The project consists of 3 pages: homepage, profile page and a page with dynamically changed content for each project selected.
 The html templates are created with Pug JS and the data for display is stored in a JSON file.

@@ -193,19 +193,20 @@
   "profile": {
     "name": "Biljana",
     "title": "Front-end developer / Full stack Javascript developer",
-    "bio": "I hold a bachelor diploma of a Software Engineer. I graduated in the beautiful Thessaloniki, in Greece and my passion is web development.",
+    "bio": "Full stack Javascript developer",
     "photo": "/static/images/profile.png",
     "skills": [
       "HTML",
       "CSS",
       "Javascript",
       "jQuery",
+      "Bootstrap",
       "Angular JS",
       "Node JS",
       "Express JS"
     ],
     "contact": [
-      "mail@mail.com"
+      "b_sotirovska@yahoo.com"
     ],
     "profileLinks": {
       "LinkedIn": "https://github.com/BilSot",

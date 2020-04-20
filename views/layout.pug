@@ -16,7 +16,7 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src= profile.photo)
+            img.thumbnail.roundImg(src= profile.photo)
           .cell.auto
 
             h5 #{profile.name}
@@ -33,9 +33,9 @@ html(class="no-js" lang="en" dir="ltr")
 
           span.title-bar-title #{profile.name}
       block content
-        
 
-      
+
+
   script(src='/static/js/vendor/jquery.js')
   script(src='/static/js/vendor/what-input.js')
   script(src='/static/js/vendor/foundation.js')

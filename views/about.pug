@@ -15,12 +15,10 @@ block content
 
         //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
-          p After graduation, for quite some time I couldn't manage to find a job in a company for a suitable, to my education, role
-            | so I started following online courses to improve and gain new skills in web development. After a while, I created a few webpages for friends
-            | (darssy.com, kdiet.gr and villasofiavrasna.gr) and was very proud to have my work on the web. Several years later,
-            | I started working in a company in Belgium as a consultant for a famous platform but I realized recently that the job is not leading me
-            | to a place I've envisioned for myself. That's why I resigned and decided to drive my career to a full time Web developer.
-            | Starting the Techdegree program on Treehouse gave me the opportunity to gain the right skills and knowledge to be able to reach my goal.
+          p Hello there, I'm Biljana. Currently I'm a freelance front end developer. I worked until recently as an IT consultant for a cloud computing platform
+            |  but I realized that the job is not leading me to a place I've envisioned for myself.
+            |  That's why I resigned and decided to drive my career to a full time web developer. Starting the Techdegree program on Treehouse
+            |  gave me the opportunity to gain the right skills and knowledge to be able to reach my goal.
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
           ul
@@ -33,7 +31,7 @@ block content
               li= contact
 
         each profileLink, linkTitle in profile.profileLinks
-            a.button.expanded(href= profileLink)= linkTitle
+            a.button.expanded(href= profileLink target= "_blank")= linkTitle
 
 
   nav.grid-container.portfolio-breadcrumb

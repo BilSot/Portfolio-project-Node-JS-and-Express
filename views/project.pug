@@ -17,9 +17,9 @@ block content
           each tech in projectObj.technologies
             li= tech
 
-        a.button.expanded(href= projectObj.demoLink) Live Demo
+        a.button.expanded(href= projectObj.demoLink target= "_blank") Live Demo
         if projectObj.gitRepositoryLink !== ''
-          a.button.expanded(href= projectObj.gitRepositoryLink) GitHub Repo
+          a.button.expanded(href= projectObj.gitRepositoryLink target= "_blank") GitHub Repo
 
     each image in projectObj.images
       img.image(src= image)

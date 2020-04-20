@@ -4988,10 +4988,14 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  border: solid 2px #ffffff;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 0 0 5px 2px #71314357;
   line-height: 0; }
+
+.roundImg {
+  border-radius: 50%;
+}
 
 a.thumbnail {
   transition: box-shadow 200ms ease-out; }

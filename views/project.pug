@@ -17,7 +17,8 @@ block content
           each tech in projectObj.technologies
             li= tech
 
-        a.button.expanded(href= projectObj.demoLink target= "_blank") Live Demo
+        if projectObj.demoLink !== ''
+          a.button.expanded(href= projectObj.demoLink target= "_blank") Live Demo
         if projectObj.gitRepositoryLink !== ''
           a.button.expanded(href= projectObj.gitRepositoryLink target= "_blank") GitHub Repo
 

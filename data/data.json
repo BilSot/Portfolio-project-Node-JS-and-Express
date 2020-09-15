@@ -37,6 +37,26 @@
     },
     {
       "id": 8,
+      "title": "Villa Sofia renting rooms",
+      "thumbnail": "/static/images/thumbnails/villasofia.png"
+    },
+    {
+      "id": 9,
+      "title": "Gallery app",
+      "thumbnail": "/static/images/thumbnails/flickr-api.png"
+    },
+    {
+      "id": 10,
+      "title": "Library manager",
+      "thumbnail": "/static/images/thumbnails/library.png"
+    },
+    {
+      "id": 11,
+      "title": "School course library",
+      "thumbnail": "/static/images/thumbnails/courses.png"
+    },
+    {
+      "id": 12,
       "title": "Calculator",
       "thumbnail": "/static/images/thumbnails/calculator.png"
     }
@@ -154,7 +174,7 @@
     {
       "id": 7,
       "title": "Kdiet Nutrition (Greek)",
-      "description": "Web site for a nutritionist's office Kdiet, located in Thessaloniki, Greece. It provides information about its services and different nutrition packages.",
+      "description": "The web site was created for a nutritionist's office, named Kdiet, located in Thessaloniki, Greece. It provides information about its services and different nutrition packages. The webpage is not live anymore and the link for the live demo redirects to a link from Wayback Machine.",
       "technologies": [
         "HTML",
         "CSS",
@@ -162,7 +182,7 @@
         "Javascript",
         "jQuery"
       ],
-      "demoLink": "http://kdiet.gr/",
+      "demoLink": "https://web.archive.org/web/20191230090440/http://kdiet.gr/",
       "gitRepositoryLink": "",
       "images": [
         "../static/images/screenshots/kdiet/kdiet1.png",
@@ -171,9 +191,90 @@
         "../static/images/screenshots/kdiet/kdiet4.png"
       ]
     },
-
     {
       "id": 8,
+      "title": "Villa Sofia renting rooms (Greek and English)",
+      "description": "The webpage was created for a family run for rooms to let in Nea Vrasna, Greece. It was a single page project and it is not live anymore. The link for the live demo redirects to a link from Wayback Machine.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "jQuery"
+      ],
+      "demoLink": "https://web.archive.org/web/20181114111559/http://villasofiavrasna.gr/",
+      "gitRepositoryLink": "",
+      "images": [
+        "../static/images/screenshots/villasofia/villasofia1.png",
+        "../static/images/screenshots/villasofia/villasofia2.png",
+        "../static/images/screenshots/villasofia/villasofia3.png"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Gallery app with Flickr API",
+      "description": "Gallery application, using the Flickr API, to present images associated with the user's search tags. It is implemented with React and it includes React Routing, React class components, asynchronous REST API calls with Axios and 404 page redirection. The application was deployed with Netlify.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ],
+      "demoLink": "https://gallery-app-with-flickr.netlify.app/404/page-not-found",
+      "gitRepositoryLink": "https://github.com/BilSot/React-gallery-app",
+      "images": [
+        "../static/images/screenshots/flickr/flickr-api1.png",
+        "../static/images/screenshots/flickr/flickr-api2.png",
+        "../static/images/screenshots/flickr/flickr-api3.png"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Library manager",
+      "description": "This project is a web application that includes pages to list, add, update, and delete books. The books are are shown with pagination and search functionality is also available. The books can be filtered by title, author, genre or year.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Node JS",
+        "Express JS",
+        "Pug JS",
+        "SQLite",
+        "Sequelize JS"
+      ],
+      "demoLink": "",
+      "gitRepositoryLink": "https://github.com/BilSot/SQL-library-manager",
+      "images": [
+        "../static/images/screenshots/library/library1.png",
+        "../static/images/screenshots/library/library2.png",
+        "../static/images/screenshots/library/library3.png"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Full stack school courses library",
+      "description": "For this project, with the use of React for the front-end, a client is implemented for an existing school database REST API. The full stack application provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database. For the actions of creation, update and deletion of a course, there must be a logged-in user. In case there isn't, the app redirects to the Sign-in page and after successful log-in, the user is returned to the page he tried to visit previously.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript ans JSX",
+        "Node JS",
+        "Express JS",
+        "React",
+        "SQLite",
+        "Sequelize JS"
+      ],
+      "demoLink": "",
+      "gitRepositoryLink": "https://github.com/BilSot/Full-stack-app-with-React-and-REST-API",
+      "images": [
+        "../static/images/screenshots/courses/courses1.png",
+        "../static/images/screenshots/courses/courses2.png",
+        "../static/images/screenshots/courses/courses3.png",
+        "../static/images/screenshots/courses/courses4.png"
+      ]
+    },
+    {
+      "id": 12,
       "title": "Calculator",
       "description": "One of my very first projects. The styling is a replica (as close as possible) of the calculator that I actually use at home. It covers the basic arithmetic operations: addition, subtraction, multiplication and division. It also includes place in Memory, reciprocal, square power and root calculation.",
       "technologies": [
@@ -191,9 +292,9 @@
     }
   ],
   "profile": {
-    "name": "Biljana",
+    "name": "Biljana Sotirovska",
     "title": "Front-end developer / Full stack Javascript developer",
-    "bio": "Full stack Javascript developer",
+    "bio": "Front-end developer / Full stack Javascript developer",
     "photo": "/static/images/profile.png",
     "skills": [
       "HTML",
@@ -203,10 +304,11 @@
       "Bootstrap",
       "Angular JS",
       "Node JS",
-      "Express JS"
+      "Express JS",
+      "React"
     ],
     "contact": [
-      "b_sotirovska@yahoo.com"
+      "sotirovskabiljana(at)gmail.com"
     ],
     "profileLinks": {
       "LinkedIn": "https://github.com/BilSot",

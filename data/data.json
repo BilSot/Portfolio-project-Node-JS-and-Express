@@ -138,7 +138,7 @@
     {
       "id": 8,
       "title": "API requests",
-      "description": "Requesting data, from a public API that provides random users. The content of each user is displayed on a `card`. When clicked, a modal dialog appears with more information for that user.",
+      "description": "The project is implemented both with vanilla Javascript and jQuery and it includes asynchronous REST API calls. It's an an app for a fictional company, with remote employees working all over the world. For the employees' data, the Random User API is used.",
       "technologies": [
         "HTML",
         "CSS",

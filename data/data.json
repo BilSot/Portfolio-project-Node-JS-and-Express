@@ -223,7 +223,7 @@
         "Javascript",
         "React"
       ],
-      "demoLink": "https://gallery-app-with-flickr.netlify.app/404/page-not-found",
+      "demoLink": "https://gallery-app-with-flickr.netlify.app",
       "gitRepositoryLink": "https://github.com/BilSot/React-gallery-app",
       "images": [
         "../static/images/screenshots/flickr/flickr-api1.png",

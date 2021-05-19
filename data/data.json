@@ -62,6 +62,16 @@
         "id": 12,
         "title": "Calculator",
         "thumbnail": "/static/images/thumbnails/calculator.png"
+      },
+      {
+        "id": 13,
+        "title": "Review registry app",
+        "thumbnail": "/static/images/thumbnails/reviews.png"
+      },
+      {
+        "id": 14,
+        "title": "Shirts4Mike",
+        "thumbnail": "/static/images/thumbnails/shirts-4-mike.png"
       }
     ]},
   "projects": [
@@ -291,6 +301,48 @@
         "../static/images/screenshots/calculator/calculator1.png",
         "../static/images/screenshots/calculator/calculator2.png",
         "../static/images/screenshots/calculator/calculator3.png"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Review registry app",
+      "description": "I implemented this project in Angular Js. It's an application used for giving rated feedback for a service or product. The app contains a form for submitting the feedback, a page with all the reviews available and a page per review, for displaying the whole content of the feedback and its comments.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Angular Js",
+        "Express Js"
+      ],
+      "demoLink": "https://protected-atoll-11682.herokuapp.com/",
+      "gitRepositoryLink": "https://github.com/BilSot/Review-Registry-App",
+      "images": [
+        "../static/images/screenshots/review-registry/reviews1.png",
+        "../static/images/screenshots/review-registry/reviews2.png",
+        "../static/images/screenshots/review-registry/reviews3.png",
+        "../static/images/screenshots/review-registry/reviews4.png"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Shirts for Mike",
+      "description": "I implemented this project in Next Js for the front-end part of the application and Express Js for the REST API. It's a small e-shop app (not yet completed) which shows all the products available, a page per product with detailed information and a search page. I used PostgreSQL this time for storing the data.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript and Jsx",
+        "Next Js",
+        "Express Js",
+        "Sequelize JS",
+        "PostgreSQL"
+      ],
+      "demoLink": "",
+      "gitRepositoryLink": "",
+      "images": [
+        "../static/images/screenshots/shirts-4-mike/shirts1.png",
+        "../static/images/screenshots/shirts-4-mike/shirts2.png",
+        "../static/images/screenshots/shirts-4-mike/shirts3.png",
+        "../static/images/screenshots/shirts-4-mike/shirts4.png"
       ]
     }
   ],

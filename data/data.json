@@ -8,13 +8,13 @@
       },
       {
         "id": 2,
-        "title": "Kdiet Nutrition",
-        "thumbnail": "/static/images/thumbnails/kdiet.png"
+        "title": "Villa Sofia renting rooms",
+        "thumbnail": "/static/images/thumbnails/villasofia.png"
       },
       {
         "id": 3,
-        "title": "Villa Sofia renting rooms",
-        "thumbnail": "/static/images/thumbnails/villasofia.png"
+        "title": "Kdiet Nutrition",
+        "thumbnail": "/static/images/thumbnails/kdiet.png"
       }
     ],
     "educational":  [
@@ -186,6 +186,25 @@
     },
     {
       "id": 2,
+      "title": "Villa Sofia renting rooms (Greek and English)",
+      "description": "The webpage was created for a family run rooms to let in Nea Vrasna, Greece. It is a single page project and it provides information about the rooms with an image gallery, near-by archaeological sites and a contact form.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "jQuery"
+      ],
+      "demoLink": "http://villasofiavrasna.gr/en.html",
+      "gitRepositoryLink": "",
+      "images": [
+        "../static/images/screenshots/villasofia/villasofia1.png",
+        "../static/images/screenshots/villasofia/villasofia2.png",
+        "../static/images/screenshots/villasofia/villasofia3.png"
+      ]
+    },
+    {
+      "id": 3,
       "title": "Kdiet Nutrition (Greek)",
       "description": "The web site was created for a nutritionist's office, named Kdiet, located in Thessaloniki, Greece. It provides information about its services and different nutrition packages. The webpage is not live anymore and the link for the live demo redirects to a link from Wayback Machine.",
       "technologies": [
@@ -202,25 +221,6 @@
         "../static/images/screenshots/kdiet/kdiet2.png",
         "../static/images/screenshots/kdiet/kdiet3.png",
         "../static/images/screenshots/kdiet/kdiet4.png"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Villa Sofia renting rooms (Greek and English)",
-      "description": "The webpage was created for a family run rooms to let in Nea Vrasna, Greece. It was a single page project and it is not live anymore. The link for the live demo redirects to a link from Wayback Machine.",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "Bootstrap",
-        "Javascript",
-        "jQuery"
-      ],
-      "demoLink": "https://web.archive.org/web/20181114111559/http://villasofiavrasna.gr/",
-      "gitRepositoryLink": "",
-      "images": [
-        "../static/images/screenshots/villasofia/villasofia1.png",
-        "../static/images/screenshots/villasofia/villasofia2.png",
-        "../static/images/screenshots/villasofia/villasofia3.png"
       ]
     },
     {
